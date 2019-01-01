@@ -1,0 +1,20 @@
+- name: Low CPU/memory overhead
+  ref: low-overhead
+  
+- name: High portability (Windows, Linux, OSX)
+  ref: high-portability
+
+- name: Multi-language support
+  ref: multi-language
+
+- name: Easy integration (single header/source file)
+  ref: easy-integration
+  
+- name: Extensibility (user-defined data types)
+  ref: extensibility
+  
+- name: Multiple output data formats (FlameGraph, Trace Event Format)
+  ref: multi-format-output
+
+- name: Event streaming to file or to network sockets
+  ref: event-streaming
