@@ -17,12 +17,12 @@ title: HawkTracer profiler
 email: marcin.kolny@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   HawkTracer is a highly portable, low-overhead, configurable profiling
-  tool for getting performance metrics from low-end devices. 
+  tool for getting performance metrics from low-end devices.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hawktracer
 github_username:  hawktracer
-hawktracer_version: 0.7.0
+hawktracer_version: 0.8.0
 github_base_url: https://github.com/loganek/hawktracer/
 
 # Build settings
