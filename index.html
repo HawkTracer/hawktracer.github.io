@@ -21,17 +21,18 @@ layout: home
     {% highlight c %}
 void foo()
 {
-  HT_TP_G_FUNCTION();
+  HT_G_TRACE_FUNCTION();
+
   very_expensive_call();
 }
 void bar()
 {
-  HT_TP_G_FUNCTION();
+  HT_G_TRACE_FUNCTION();
   for (int i = 0; i < 100; i++)
   {
     foo();
     {
-      HT_TP_G_STRACEPOINT("InternalOp");
+      HT_G_TRACE_OPT_STATIC("InternalOp");
       recursive(10);
     }
   }
